@@ -11,7 +11,10 @@ This is a collection of Python 2 files with code examples on how to use WebDrive
   + [Dropdowns](https://www.youtube.com/watch?v=BmPtKENfYcY)
   + [Checkboxes](https://www.youtube.com/watch?v=hqQ5Y65qZeQ)
   + [Radio Buttons](https://www.youtube.com/watch?v=X5PUGmDawYc)
+  + [Drag and Drop]()
 + [Upload files](https://www.youtube.com/watch?v=o3UmH-qflMg)
 + [Download files](https://www.youtube.com/watch?v=e5xwLr3xYiI)
++ [Save/Load/Delete Cookies]()
++ [System Dialogs]()
 
 More tutorials can be found on my [YouTube channel](https://www.youtube.com/c/ArturSpirin)
