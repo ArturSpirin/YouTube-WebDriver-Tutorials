@@ -71,13 +71,13 @@ driver = webdriver.Chrome()
 driver.get("https://convertio.co/")
 driver.find_element_by_xpath("(//label[@for='pc-upload-add'])[3]").click()
 
-# process = psutil.Process(driver.service.process.pid)  # chromedriver pid
-# pid = process.children()[0].pid  # chrome tab pid
-#
-# dialog = SystemDialog(application_pid=pid)
-# dialog.input_file_path("E:\Development\Webdriver-Tutorials\system_dialogs\pic.png")
-# dialog.accept()
-# driver.quit()
+process = psutil.Process(driver.service.process.pid)  # chromedriver pid
+pid = process.children()[0].pid  # chrome tab pid
+
+dialog = SystemDialog(application_pid=pid)
+dialog.input_file_path("E:\Development\Webdriver-Tutorials\system_dialogs\pic.png")
+dialog.accept()
+driver.quit()
 
 SIKULI = "C:\sikuli\\runsikulix.cmd"
 SCRIPT = "E:\Development\Webdriver-Tutorials\system_dialogs\system_dialogs.sikuli"
@@ -88,4 +88,4 @@ process = subprocess.Popen("{sikuli} -r {script} --args \"{accept}\" \"{file}\""
                            stdout=subprocess.PIPE, shell=True)
 process.communicate()
 process.wait()
-# driver.quit()
+driver.quit()
