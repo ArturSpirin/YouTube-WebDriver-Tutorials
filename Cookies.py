@@ -17,9 +17,9 @@ def load_cookies(driver, location, url=None):
     # have to be on a page before you can add any cookies, any page - does not matter which
     driver.get("https://google.com" if url is None else url)
     for cookie in cookies:
-    if isinstance(cookie.get('expiry'), float):#Checks if the instance expiry a float 
-        cookie['expiry'] = int(cookie['expiry'])# it converts expiry cookie to a int 
-    driver.add_cookie(cookie)
+        if isinstance(cookie.get('expiry'), float):#Checks if the instance expiry a float 
+            cookie['expiry'] = int(cookie['expiry'])# it converts expiry cookie to a int 
+        driver.add_cookie(cookie)
 
 
 def delete_cookies(driver, domains=None):
