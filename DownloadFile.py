@@ -7,7 +7,7 @@ preferences = {"download.default_directory": "E:\Development\Webdriver-Tutorials
 
 options.add_experimental_option("prefs", preferences)
 
-driver = webdriver.Chrome(chrome_options=options)
+driver = webdriver.Chrome(options=options)
 
 driver.get("https://www.whatsapp.com/download/")
-driver.find_element(By.XPATH, "//div[@class='feature__action']/a").click()
+driver.find_element(By.XPATH, "//a[text() = 'Download for Windows']").click()
