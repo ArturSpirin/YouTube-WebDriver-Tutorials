@@ -16,5 +16,12 @@ This is a collection of Python 2 files with code examples on how to use WebDrive
 + [Download files](https://www.youtube.com/watch?v=e5xwLr3xYiI)
 + [Save/Load/Delete Cookies](https://www.youtube.com/watch?v=s9m6h1bLVIo)
 + [System Dialogs](https://www.youtube.com/watch?v=kB7I0FRvv1Y)
++ [Designing Page Objects](https://www.youtube.com/watch?v=PKAMgGTigD4)
++ [Using BrowserMobProxy with Webdriver](https://www.youtube.com/watch?v=r0ne6zrqVaQ)
++ [Using Dev Tools with Webdriver](https://www.youtube.com/watch?v=vffm3Sj3vbY)
++ [Using WebDriver Manager](https://www.youtube.com/watch?v=o0yDit90RPg)
++ [Image comparison](https://www.youtube.com/watch?v=Udu1TPE6MmE)
++ [Cookies](https://www.youtube.com/watch?v=s9m6h1bLVIo)
+
 
 More tutorials can be found on my [YouTube channel](https://www.youtube.com/c/ArturSpirin)
